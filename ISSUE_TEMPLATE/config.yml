@@ -11,6 +11,6 @@ defaults:
   - template: "feature_request.yml"
     name: "💡 機能リクエスト"
     about: "新機能のアイデアを提案する"
-  - template: "doce_request.yml"
+  - template: "doc_request.yml"
     name: "📝 ドキュメンテーション改善・修正依頼"
     about: "ドキュメンテーションの改善・修正を依頼する"
