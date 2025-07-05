@@ -1,17 +1,17 @@
 name:  📝 ドキュメント改善・修正依頼
-description: ドキュメントの修正や改善提案を報告するためのテンプレート
+description: ドキュメントの改善や修正提案を報告するためのテンプレート
 labels: ["documentation"]
 body:
   - type: markdown
     attributes:
       value: |
         ドキュメントの改善や修正をありがとうございます。  
-        どの部分を修正・改善したいか、具体的にご記入ください。
+        どの部分を改善・修正したいか、具体的にご記入ください。
 
   - type: textarea
     id: doc_section
     attributes:
-      label: 修正・改善対象のドキュメント箇所
+      label: 改善・修正対象のドキュメント箇所
       description: 例）READMEのインストール手順、Wikiの○○ページなど
       placeholder: 修正したい箇所を記載してください
     validations:
@@ -20,8 +20,8 @@ body:
   - type: textarea
     id: proposed_change
     attributes:
-      label: 修正・改善内容の詳細
-      description: 実際にどう修正・改善したいかを記述してください
+      label: 改善・修正内容の詳細
+      description: 実際にどう改善・修正したいかを記述してください
       placeholder: 例）インストール手順にバージョン番号を追記したい
     validations:
       required: true
@@ -30,5 +30,5 @@ body:
     id: motivation
     attributes:
       label: 変更の理由・背景
-      description: なぜ修正・改善が必要かを簡単に説明してください
+      description: なぜ改善・修正が必要かを簡単に説明してください
       placeholder: 例）最新バージョンで手順が変わったため
