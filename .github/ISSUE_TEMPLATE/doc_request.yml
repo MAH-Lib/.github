@@ -1,5 +1,5 @@
 name:  📝 ドキュメント改善・修正依頼
-description: ドキュメントの改善や修正提案を報告するためのテンプレート
+description: ドキュメントの改善や修正提案をする
 labels: ["documentation"]
 body:
   - type: markdown
