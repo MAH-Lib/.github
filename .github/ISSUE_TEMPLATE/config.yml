@@ -1,6 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name:💬 質問・相談
+    url:https://github.com/MAH-Lib/.github
     about: バグ報告や機能リクエスト以外の質問・相談は、GitHub Discussions をご使用ください。
 
 # Issue作成時のテンプレート設定
