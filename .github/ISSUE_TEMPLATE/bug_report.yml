@@ -1,5 +1,5 @@
 name: 🐛 バグ報告
-description: Unityプロジェクトに関するバグを報告する
+description: バグを報告する
 labels: ["bug"]
 body:
   - type: markdown
@@ -12,7 +12,7 @@ body:
     attributes:
       label: バグの説明
       description: 発生したバグについて、可能な限り詳細に記述してください。
-      placeholder: 例）ゲーム開始直後にキャラクターが操作不能になる 等
+      placeholder: できるだけ具体的に記述してください
     validations:
       required: true
 
@@ -22,9 +22,9 @@ body:
       label: 再現手順
       description: バグがどのような操作・状況で再現するかを記述してください。
       placeholder: |
-        1. タイトル画面で「スタート」を押す
-        2. ステージ1に遷移
-        3. キャラクターがジャンプ後に停止する
+        1. '...' に移動
+        2. '....' をクリック
+        3. エラーが発生
     validations:
       required: true
 
@@ -33,7 +33,6 @@ body:
     attributes:
       label: 期待する動作
       description: 本来期待していた挙動を記述してください。
-      placeholder: 例）ジャンプ後もキャラクターが移動可能であるべき
     validations:
       required: true
 
@@ -51,7 +50,7 @@ body:
     attributes:
       label: 実行環境（プラットフォーム）
       description: バグが発生したプラットフォームを記入してください。
-      placeholder: 例：Windows 10, macOS, Android, iOS, WebGL など
+      placeholder: 例：Windows 11, macOS, Android, iOS, WebGL など
     validations:
       required: true
 
