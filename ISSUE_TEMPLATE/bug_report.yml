@@ -1,0 +1,68 @@
+name: 🐛 バグ報告
+description: Unityプロジェクトに関するバグを報告する
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        バグ報告ありがとうございます。以下の情報をご記入ください。
+
+  - type: textarea
+    id: description
+    attributes:
+      label: バグの説明
+      description: 発生したバグについて、可能な限り詳細に記述してください。
+      placeholder: 例）ゲーム開始直後にキャラクターが操作不能になる 等
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 再現手順
+      description: バグがどのような操作・状況で再現するかを記述してください。
+      placeholder: |
+        1. タイトル画面で「スタート」を押す
+        2. ステージ1に遷移
+        3. キャラクターがジャンプ後に停止する
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待する動作
+      description: 本来期待していた挙動を記述してください。
+      placeholder: 例）ジャンプ後もキャラクターが移動可能であるべき
+    validations:
+      required: true
+
+  - type: input
+    id: unity_version
+    attributes:
+      label: 使用している Unity のバージョン
+      description: 例：Unity 2022.3.8f1、Unity 6.0.0 LTS など
+      placeholder: Unity のバージョン番号を入力
+    validations:
+      required: true
+
+  - type: input
+    id: platform
+    attributes:
+      label: 実行環境（プラットフォーム）
+      description: バグが発生したプラットフォームを記入してください。
+      placeholder: 例：Windows 10, macOS, Android, iOS, WebGL など
+    validations:
+      required: true
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: 緊急度
+      description: このバグの影響度を選んでください
+      options:
+        - 軽微（小さな不具合だがプレイ可能）
+        - 中（プレイはできるが影響あり）
+        - 高（進行不能や重大なバグ）
+    validations:
+      required: true
