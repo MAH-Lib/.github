@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         バグ報告ありがとうございます。以下の情報をご記入ください。  
-        バグ報告や機能リクエスト以外の質問・相談は、GitHub Discussions をご使用ください。
+        ※バグ報告や機能リクエスト以外の質問・相談は、GitHub Discussions をご使用ください。
 
   - type: textarea
     id: description
